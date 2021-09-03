@@ -1,0 +1,121 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(37, 37, 37);
+}
+
+h1 {
+  font-family: "Allison", cursive;
+  font-size: 4em;
+  text-align: center;
+  color: rgb(81, 148, 148);
+  /* margin: 2em 1em 1em 0em; */
+  margin-top: 2em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-family: "Cabin", sans-serif;
+  color: rgb(37, 37, 37);
+  font-weight: 400;
+  margin: 2em 1em 2em 1em;
+  background-color: gray;
+  border-radius: 10%;
+  border: none;
+  height: 2em;
+  width: 4em;
+}
+
+input {
+  font-family: "Cabin", sans-serif;
+  color: rgb(37, 37, 37);
+  margin: 2em 1em 2em 2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 60%;
+  height: 2em;
+  max-width: 20em;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-items: center; */
+  gap: 2em;
+}
+
+.results div {
+  border: 5px solid darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 295px;
+  color: lightgray;
+}
+
+.results img {
+  padding: 4px;
+}
+
+.results p {
+  padding: 4px;
+  text-align: center;
+}
+
+.results a {
+  color: rgb(81, 148, 148);
+  text-decoration: none;
+}
+
+h3 {
+  margin: 40px 20px 20px 20px;
+  color: lightgray;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+#Follow {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+#Follow h2 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: lightgray;
+}
+
+#Follow a {
+  text-decoration: none;
+  color: whitesmoke;
+}
