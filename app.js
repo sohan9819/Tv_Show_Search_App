@@ -33,7 +33,7 @@ const results = (shows) => {
             div.append(img)
             div.append(p)
             img.src = shows[result].show.image.medium ;
-            // p.innerHTML = shows[result].show.summary;
+            p.innerHTML = shows[result].show.summary;
 
             const site = document.createElement('p');
             div.append(site)
